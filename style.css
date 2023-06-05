@@ -1,0 +1,89 @@
+body {
+  background-color: beige;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid black;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.header-text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.My-info {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: auto;
+}
+
+.list {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.links:hover {
+  color: black;
+}
+
+hr {
+  border: 0.15rem;
+  border-style: dotted;
+  width: 20%;
+  color: green;
+}
+
+.piano-header {
+  margin-top: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.rock_bottom {
+  background-color: #66bfbf;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.Socials {
+  font-family: "Courier New", Courier, monospace;
+  color: #1c7575;
+  margin: 20px 15px;
+  text-decoration: none;
+}
+
+.Socials:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #40514e;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.final-header {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.interests {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.Contact-lol {
+  display: flex;
+  flex-direction: column;
+}
+
+.number-lol {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: auto;
+}
