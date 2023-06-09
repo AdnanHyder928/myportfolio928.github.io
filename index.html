@@ -7,6 +7,7 @@
     <title>Adnan's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="Icons/favicon.ico" />
+    <link rel="script" href="web.js" />
   </head>
   <body>
     <div class="top-container">
@@ -28,11 +29,33 @@
       <hr />
       <h2 class="header-text">My Skillz:</h2>
       <ol class="list">
-        <li><a class="links" href=""> Programming(C++,Python)</a></li>
-        <li><a class="links" href="">Content Writing</a></li>
-        <li><a class="links" href=""> Web Development(HTML,CSS, & JS)</a></li>
-        <li><a href="">Digital Marketing</a></li>
-        <li><a class="links" href="">Video Editing</a></li>
+        <li>
+          <a class="links" href="https://www.w3schools.com/cpp/">
+            Programming(C++,Python)</a
+          >
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://en.wikipedia.org/wiki/Content_writing_services"
+            >Content Writing</a
+          >
+        </li>
+        <li>
+          <a class="links" href="https://en.wikipedia.org/wiki/Web_development">
+            Web Development(HTML,CSS, & JS)</a
+          >
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Digital_marketing"
+            >Digital Marketing</a
+          >
+        </li>
+        <li>
+          <a class="links" href="https://en.wikipedia.org/wiki/Video_editing"
+            >Video Editing</a
+          >
+        </li>
       </ol>
       <hr />
       <h2 class="header-text">My Interests/Hobbies:</h2>
@@ -44,7 +67,13 @@
       </ol>
       <hr />
       <br />
-      <h2 class="header-text"><a href="contact.html">Contact Me</a></h2>
+      <div class="contact-flex">
+        <h2 class="header-text"><a href="contact.html">Contact Me</a></h2>
+        <h2 class="header-text">
+          <button onclick="validate()">My CV</button>
+          <!-- <a href="CV.html" id="protected-link">My CV</a> -->
+        </h2>
+      </div>
     </div>
 
     <div class="rock_bottom">
@@ -59,3 +88,13 @@
     </div>
   </body>
 </html>
+
+<script>
+  function validate() {
+    let password = prompt("Enter Password");
+
+    if (password == "adnan123") {
+      window.location.href = "CV.html";
+    }
+  }
+</script>
